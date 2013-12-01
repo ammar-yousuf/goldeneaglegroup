@@ -622,3 +622,23 @@ ul.style1 .first {
 	color: #036;
 	
 }
+
+a:link {
+	text-decoration: none;
+	color: #036;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+body {
+	background-color: #D4E4EF;
+}
+p.button a { 
+	color: #FFF; 
+}
