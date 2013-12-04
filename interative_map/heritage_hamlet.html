@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery maphilight documentation</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.maphilight.min.js"></script>
+	<script type="text/javascript">$(function() {		
+		$('.hamletmap').maphilight({strokeColor: 'FFA500', strokeWidth: 4, fill: true, fillColor: '000000', fillOpacity: 0.2});
+	});</script>
+</head>
+<body>
+
+<center>
+	<h1 style="font-size: 54px;">Allam Heritage Hamlet</h1>
+	<h3>Please click the star to see the model details beneath the community map.</h3>
+	<img src="Hamlet_Site_Plan.png" alt="Hamlet" usemap="#hamletmap" class="hamletmap">
+
+	<map name="hamletmap">
+	  <area shape="poly" coords="771,463,876,480,828,746,712,701" alt="Farmingham" href="lots/Lot_1_Farmingham_Distinctive.pdf", target="model_details">
+	  <area shape="poly" coords="458,317,562,349,525,442,469,493,436,594,405,609,365,593" alt="Evonshire_Distinctive" href="lots/Lot_2_Evonshire_Distinctive.pdf", target="model_details">
+	  <area shape="poly" coords="350,294,379,287,455,318,361,593,284,519" alt="Evonshire_Classic" href="lots/Lot_3_Evonshire_Classic.pdf", target="model_details">
+	  <area shape="poly" coords="278,179,324,210,326,212,311,244,322,278,351,292,289,498,169,360" alt="Farmingham_Distinctive" href="lots/Lot_4_Farmingham_Distinctive.pdf", target="model_details">
+	  <area shape="poly" coords="258,163,302,66,460,63,434,178,411,224,408,249,368,203,328,209" alt="Glenhaven_Classic" href="lots/Lot_5_Glenhaven_Classic.pdf", target="model_details">
+	  <area shape="poly" coords="409,252,413,228,435,177,460,60,576,194,616,197,609,242,528,233,514,295" alt="Dover_Distinctive" href="lots/Lot_6_Dover_Distinctive.pdf", target="model_details">
+	  <area shape="poly" coords="615,198,828,217,818,429,755,408,716,384,693,249,614,240" alt="Evonshire_Distinctive" href="lots/Lot_7_Evonshire_Distinstive.pdf", target="model_details">
+	  <area shape="poly" coords="828,218,942,230,927,443,818,428" alt="Dover_Lithic" href="lots/Lot_8_Dover_Lithic.pdf", target="model_details">
+	  <area shape="poly" coords="1291,1,1293,948,4,949,2,304,144,324,385,621,440,596,483,499,530,450,569,359,762,461,710,700,832,751,881,478,934,442,942,225,576,188,460,58,303,64,253,165,276,177,164,358,148,324,2,302,2,0" alt="Hanover" href="lots/Lot_9_Hanover.pdf", target="model_details">
+	</map>
+	<br/><br/>
+	<iframe name="model_details" width="1000" height="1200" frameborder=0 seamless="seamless"></iframe>
+</center>
+
+</body>
+</html>
