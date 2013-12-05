@@ -20,8 +20,28 @@
     <p>Demonstrating a basic gallery example.</p>
 
     <div id="galleria">
-        <a href="pictures/Bulldoser.jpg"><img src="pictures/Bulldoser.jpg" data-big="pictures/Bulldoser.jpg"></a>
         <a href="pictures/image001.jpg"><img src="pictures/image001.jpg" data-big="pictures/image001.jpg"></a>
+        <a href="pictures/team.jpg"><img src="pictures/team.jpg" data-big="pictures/team.jpg"></a>
+        <a href="pictures/bulldozer.jpg"><img src="pictures/bulldozer.jpg" data-big="pictures/bulldozer.jpg"></a>
+        <a href="pictures/Lake Boat 1.JPG"><img src="pictures/Lake Boat 1.JPG" data-big="pictures/Lake Boat 1.JPG"></a>
+        <a href="pictures/Building Permit Lot 8.JPG"><img src="pictures/Building Permit Lot 8.JPG" data-big="pictures/Building Permit Lot 8.JPG"></a>              
+        <a href="pictures/Lot 8 Beginning.JPG"><img src="pictures/Lot 8 Beginning.JPG" data-big="pictures/Lot 8 Beginning.JPG"></a>
+        <a href="pictures/Lot 8 bulldoser start.JPG"><img src="pictures/Lot 8 bulldoser start.JPG" data-big="pictures/Lot 8 bulldoser start.JPG"></a>                
+        <a href="pictures/Lot 8 Beginning 1.JPG"><img src="pictures/Lot 8 Beginning 1.JPG" data-big="pictures/Lot 8 Beginning 1.JPG"></a>
+        <a href="pictures/Lot 8 Foundation basement (2).JPG"><img src="pictures/Lot 8 Foundation basement (2).JPG" data-big="pictures/Lot 8 Foundation basement (2).JPG"></a>
+        <a href="pictures/Lot 8 Foundation (4).JPG"><img src="pictures/Lot 8 Foundation (4).JPG" data-big="pictures/Lot 8 Foundation (4).JPG"></a>        
+        <a href="pictures/Lot 8 Foundation (3).JPG"><img src="pictures/Lot 8 Foundation (3).JPG" data-big="pictures/Lot 8 Foundation (3).JPG"></a>
+        <a href="pictures/Lot 8 Foundation (2).JPG"><img src="pictures/Lot 8 Foundation (2).JPG" data-big="pictures/Lot 8 Foundation (2).JPG"></a>
+        <a href="pictures/Lot 8 Basement 12.JPG"><img src="pictures/Lot 8 Basement 12.JPG" data-big="pictures/Lot 8 Basement 12.JPG"></a>
+        <a href="pictures/Lot 8 Basement.JPG"><img src="pictures/Lot 8 Basement.JPG" data-big="pictures/Lot 8 Basement.JPG"></a>
+        <a href="pictures/Lot 8 Framing (5).JPG"><img src="pictures/Lot 8 Framing (5).JPG" data-big="pictures/Lot 8 Framing (5).JPG"></a>
+        <a href="pictures/Lot 8 Framing (2).JPG"><img src="pictures/Lot 8 Framing (2).JPG" data-big="pictures/Lot 8 Framing (2).JPG"></a>
+        <a href="pictures/Lot 8 Framing (3).JPG"><img src="pictures/Lot 8 Framing (3).JPG" data-big="pictures/Lot 8 Framing (3).JPG"></a>
+        <a href="pictures/Lot 8 Framing 5.JPG"><img src="pictures/Lot 8 Framing 5.JPG" data-big="pictures/Lot 8 Framing 5.JPG"></a>
+        
+        <a href="pictures/Lot 8 End 2.JPG"><img src="pictures/Lot 8 End 2.JPG" data-big="pictures/Lot 8 End 2.JPG"></a>
+        <a href="pictures/photo 12354.JPG"><img src="pictures/photo 12354.JPG" data-big="pictures/photo 12354.JPG"></a>
+        
     </div>
   </div>
 
@@ -30,6 +50,10 @@
     Galleria.loadTheme('javascript/themes/fullscreen/galleria.fullscreen.min.js');
 
     // Initialize Galleria
-    Galleria.run('#galleria');
+    Galleria.run('#galleria', {
+    transition: 'fade',
+    thumbCrop: "height",
+    imageCrop: false
+    });
   </script>
 </body>
